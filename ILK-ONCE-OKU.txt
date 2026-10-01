@@ -1,0 +1,51 @@
+SOSYAL MEDYA YONETIM AI EKIBI - WINDOWS TEST PAKETI
+
+1. ZIP dosyasini tamamen cikarin. ZIP icinden Baslat.cmd calistirmayin.
+2. Klasoru bilgisayarinizin SSD diskine kopyalayin.
+3. Baslat.cmd dosyasina cift tiklayin. Baslatici tarayicida acilir.
+4. Studyo arayuzunden AI araclarini ve sosyal hesaplarinizi baglayin.
+5. Kapatmak icin Durdur.cmd dosyasini kullanin.
+
+Windows 10/11 x64 icindir. Node.js kurmaniz gerekmez; pakette bulunur.
+Yerel Qwen3-8B modeli (yaklasik 5.85 GB), gomulu arama modeli ve
+llama.cpp calistirma bilesenleri DAHILDIR. Bunlari tekrar indirmeniz gerekmez.
+Yerel modeli kullanmak icin 16 GB veya daha fazla RAM ve SSD tercih edilir;
+hiz, ekran karti ve bos belleke gore degisir. Acilista birkac dakika bekleyin.
+ZIP + acilmis klasor icin en az 15 GB bos alan ayirin.
+Buyuk dosya nedeniyle USB bellek exFAT veya NTFS olmali; FAT32 uygun degildir.
+
+Yerel model ekran kartiyla acilmazsa Durdur.cmd dosyasini kullanin, sonra
+Islemci-Ile-Baslat.cmd dosyasini acin. CPU modunda uretim daha yavas olabilir.
+Sadece API ile denemek icin API-Ile-Baslat.cmd dosyasini acip
+AI baglantilarinda sefi ve arastirmaciyi secin.
+
+VERILER VE EGITIM
+Bu temiz paket kisisel veritabani, API anahtari ve kullanici belgesi icermez.
+Kendi verileriniz ilk calistirmada data klasorunde olusur.
+RAG belgeleri ekleyebilir, Turkce egitim ornekleri yazabilir ve veri seti
+aktarabilirsiniz. Bunlar model agirliklarini otomatik degistirmez.
+Gercek fine-tuning icin Python 3.10+, ek egitim ortami/model indirmesi ve
+uygun donanim gerekir. Hazir Python/CUDA egitim ortami pakete dahil degildir.
+
+OTONOM YAYIN
+Sosyal hesaplar bolumunde hedef hesabi ve yayin yetkili erisim belirtecini
+ekleyin. Gonderiyi onaylayip yayin tarihini secin. Tarayiciyi kapatabilirsiniz;
+bilgisayar ve uygulama acik, internet baglantisi etkin kalmali.
+Instagram: profesyonel hesap + Facebook Sayfa tokeni + Cloudinary baglantisi.
+Facebook: Sayfaya metin/gorsel. LinkedIn: profil/sayfaya metin/gorsel.
+Video dogrudan Instagram Reels icin desteklenir. X/TikTok/Blog dogrudan
+yayin baglantisi bu surumde yoktur. Ayrintilar docs/SOSYAL-HESAPLAR.md.
+Gercek hesabinizda yayin izinleri ve servis kosullari ayrica gecerlidir.
+
+GERI BILDIRIM
+Baslatici ekraninda geri bildirim formunu doldurup JSON dosyasini indirin.
+Dosyayi uygulamayi size gonderen kisiye iletin. Otomatik gonderim yoktur.
+Hesap sifresi, API anahtari veya ozel musteri bilgisi yazmayin.
+
+PAYLASIM
+Arkadaslariniza orijinal temiz ZIP dosyasini gonderin.
+Kullandiginiz klasoru topluca tekrar paylasmayin: data, logs ve backups
+klasorleri sonradan size ait bilgileri icerir.
+Bu yerel test paketi merkezi web sunucusuna baglanmaz. Her kullanici kendi
+bilgisayarinda calisir. Web/token/5-gonderi modeli ayri sunucu kurulumudur;
+yerel test paketinde odeme veya 5-gonderi siniri uygulanmaz.
